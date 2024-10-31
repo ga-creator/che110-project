@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>IT Solutions for Sustainable Development</title>
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#case-studies">Case Studies</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>IT Solutions for Sustainable Development</h1>
+        <p>Exploring technology-driven approaches to a sustainable future</p>
+    </section>
+
+    <!-- IT Solutions Section -->
+    <section id="solutions" class="content-section">
+        <h2>IT Solutions</h2>
+        <div class="solutions-container">
+            <div class="solution">
+                <h3><a href="smart-grids.html">Smart Grids</a></h3>
+                <p>Improving energy distribution and integrating renewable energy through real-time monitoring.</p>
+            </div>
+            <div class="solution">
+                <h3><a href="iot-energy-efficiency.html">IoT for Energy Efficiency</a></h3>
+                <p>Smart homes and industries using IoT to reduce energy consumption and automate processes.</p>
+            </div>
+            <div class="solution">
+                <h3><a href="cloud-computing.html">Cloud Computing</a></h3>
+                <p>Minimizing carbon footprints by optimizing resource allocation and reducing server requirements.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="case-studies" class="content-section">
+        <h2>Case Studies</h2>
+        <div class="case-study">
+            <button onclick="toggleCaseStudy('greenEnergy')">Project Green Energy</button>
+            <div id="greenEnergy" class="case-details" style="display: none;">
+                <p>A smart grid initiative that reduced energy waste by 30% through real-time monitoring and renewable energy integration.</p>
+            </div>
+        </div>
+        <div class="case-study">
+            <button onclick="toggleCaseStudy('smartFarming')">IoT for Smart Farming</button>
+            <div id="smartFarming" class="case-details" style="display: none;">
+                <p>Increased crop yield while minimizing water usage by 20% by leveraging IoT sensors for soil moisture and environmental monitoring.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <h2>Contact Us</h2>
+        <form action="#">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 IT Solutions for Sustainable Development. All rights reserved.</p>
+    </footer>
+</body>
+</html>
